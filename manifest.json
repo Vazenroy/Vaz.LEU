@@ -1,8 +1,8 @@
 {
   "filename": "NewHorizonsConfig.dll",
-  "author": "[your name]",
-  "name": "[your readable mod name]",
-  "uniqueName": "[your name].[your unique mod ID]",
+  "author": "Vazenroy",
+  "name": "Love at the Edge of a Universe",
+  "uniqueName": "Vaz.LEU",
   "version": "0.0.0",
   "owmlVersion": "2.7.2",
   "dependencies": [ "xen.NewHorizons" ]
