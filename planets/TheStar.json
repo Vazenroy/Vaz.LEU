@@ -10,6 +10,18 @@
 		"centerOfSolarSystem": true
 	},
 	"Star": {
-		
-	}
+		"hasAtmosphere": true,
+		"stellarDeathType": "planetaryNebula",
+		"lightTint": {
+			"r": 255,
+			"g": 250,
+			"b": 250
+		},
+		"tint": {
+			"r": 255,
+			"g": 200,
+			"b": 210
+		}
+	},
+	"canShowOnTitle": true
 }

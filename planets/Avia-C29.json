@@ -8,6 +8,21 @@
 		"surfaceGravity": 20,
 		"hasMapMarker": true
 	},
+    "Atmosphere": {
+        "clouds": {
+            "cloudsPrefab": "giantsDeep",
+            "fluidType": "plasma",
+            "hasLightning": true,
+            "innerCloudRadius": 400,
+            "rotationSpeed": 30
+        },
+        "size": 420,
+        "hasOxygen": true,
+        "hasSnow": true,
+        "useAtmosphereShader": true,
+        "fogSize": 420,
+        "fogDensity": 1
+    },
     "Spawn": {
         "shipSpawn": {
             "rotation": {
@@ -17,10 +32,24 @@
             },
             "alignRadial": true,
             "position": {
-                "x": 300,
+                "x": 310,
                 "y": 0,
                 "z": 0
             }
+        },
+        "playerSpawn": {
+            "alignRadial": true,
+            "position": {
+                "x": 300,
+                "y": 310,
+                "z": 0
+            }
         }
+    },
+    "AsteroidBelt": {
+        "amount": 21,
+        "inclination": 30,
+        "innerRadius": 450,
+        "outerRadius": 500
     }
 }
