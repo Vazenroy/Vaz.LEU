@@ -2,22 +2,23 @@
     "$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
     "name" : "Avia-C29",
     "starSystem": "SolarSystem",
+    "canShowOnTitle": true,
 	"Base": {
 		"groundSize": 300,
 		"surfaceSize": 301,
-		"surfaceGravity": 20,
+		"surfaceGravity": 25,
 		"hasMapMarker": true
 	},
     "Orbit": {
         "semiMajorAxis": 10000,
         "primaryBody": "SUN",
         "isMoon": true,
-        "isTidallyLocked": true
+        "isTidallyLocked": false
     },
     "Atmosphere": {
         "clouds": {
             "hasLightning": true,
-            "fluidType": "sand",
+            "fluidType": "water",
             "innerCloudRadius": 400,
             "outerCloudRadius": 420,
             "tint": {
@@ -25,38 +26,20 @@
                 "g": 110,
                 "b": 245
             },
-            "rotationSpeed": 0.2,
-            "texturePath": "planets/assets/Avia.png",
-            "capPath": "planets/assets/Avia_Cap.png"
+            "rotationSpeed": 10,
+            "texturePath": "planets/assets/Avia.png"
         },
         "size": 420,
         "hasOxygen": true,
         "hasSnow": true,
         "useAtmosphereShader": true,
         "fogSize": 420,
-        "fogDensity": 0.2,
-        "atmosphereSunIntensity": 1
-    },
-    "AmbientLights": [
-        {
-            "outerRadius": 420,
-            "innerRadius": 400,
-            "intensity": 1,
-            "tint": {
-                "r": 255,
-                "g": 0,
-                "b": 255
-            }
+        "fogDensity": 0.5,
+        "fogTint": {
+            "r": 200,
+            "g": 200,
+            "b": 255
         },
-        {
-            "outerRadius": 420,
-            "innerRadius": 400,
-            "intensity": 1,
-            "tint": {
-                "r": 150,
-                "g": 0,
-                "b": 250
-            }
-        }
-    ]
+        "atmosphereSunIntensity": 1
+    }
 }
