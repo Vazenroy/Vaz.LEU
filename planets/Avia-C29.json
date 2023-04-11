@@ -1,0 +1,26 @@
+{
+    "$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+    "name" : "Avia-C29",
+    "starSystem": "LEU",
+	"Base": {
+		"groundSize": 300,
+		"surfaceSize": 301,
+		"surfaceGravity": 20,
+		"hasMapMarker": true
+	},
+    "Spawn": {
+        "shipSpawn": {
+            "rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "alignRadial": true,
+            "position": {
+                "x": 300,
+                "y": 0,
+                "z": 0
+            }
+        }
+    }
+}

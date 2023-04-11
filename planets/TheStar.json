@@ -1,0 +1,15 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name" : "The Star",
+	"starSystem": "LEU",
+	"Base": {
+		"groundSize": 500,
+		"surfaceSize": 501,
+		"surfaceGravity": 50,
+		"hasMapMarker": true,
+		"centerOfSolarSystem": true
+	},
+	"Star": {
+		
+	}
+}
