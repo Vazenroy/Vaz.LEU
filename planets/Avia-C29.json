@@ -3,8 +3,8 @@
     "name" : "Avia-C29",
     "starSystem": "SolarSystem",
 	"Base": {
-		"groundSize": 310,
-		"surfaceSize": 300,
+		"groundSize": 100,
+		"surfaceSize": 101,
 		"surfaceGravity": 12,
 		"hasMapMarker": true
 	},
@@ -27,12 +27,6 @@
         "hasSnow": true,
         "useAtmosphereShader": true,
         "fogSize": 420,
-        "fogDensity": 1
-    },
-    "AsteroidBelt": {
-        "amount": 21,
-        "inclination": 30,
-        "innerRadius": 450,
-        "outerRadius": 500
+        "fogDensity": 0.9
     }
 }
