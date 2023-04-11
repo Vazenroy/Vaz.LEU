@@ -40,29 +40,8 @@
             "g": 200,
             "b": 255
         },
-        "atmosphereSunIntensity": 1
-    },
-    "AmbientLights": [
-        {
-            "outerRadius": 420,
-            "innerRadius": 400,
-            "intensity": 1,
-            "tint": {
-                "r": 255,
-                "g": 0,
-                "b": 255
-            }
-        },
-        {
-            "outerRadius": 420,
-            "innerRadius": 400,
-            "intensity": 1,
-            "tint": {
-                "r": 0,
-                "g": 0,
-                "b": 255,
-                "a": 100
-            }
-        }
-    ]
+        "atmosphereSunIntensity": 10,
+        "hasShockLayer": true,
+        "minShockSpeed": 35
+    }
 }
