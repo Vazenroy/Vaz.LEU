@@ -8,6 +8,12 @@
 		"surfaceGravity": 20,
 		"hasMapMarker": true
 	},
+    "Orbit": {
+        "semiMajorAxis": 10000,
+        "primaryBody": "TheStar",
+        "isMoon": false,
+        "isTidallyLocked": false
+    },
     "Atmosphere": {
         "clouds": {
             "cloudsPrefab": "giantsDeep",
