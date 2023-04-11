@@ -4,12 +4,12 @@
     "starSystem": "SolarSystem",
 	"Base": {
 		"groundSize": 300,
-		"surfaceSize": 301,
-		"surfaceGravity": 20,
+		"surfaceSize": 310,
+		"surfaceGravity": 12,
 		"hasMapMarker": true
 	},
     "Orbit": {
-        "semiMajorAxis": 10000,
+        "semiMajorAxis": 40000,
         "primaryBody": "SUN",
         "isMoon": true,
         "isTidallyLocked": false
