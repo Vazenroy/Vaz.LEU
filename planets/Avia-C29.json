@@ -11,13 +11,13 @@
     "Orbit": {
         "semiMajorAxis": 10000,
         "primaryBody": "TheStar",
-        "isMoon": false,
+        "isMoon": true,
         "isTidallyLocked": false
     },
     "Atmosphere": {
         "clouds": {
             "cloudsPrefab": "giantsDeep",
-            "fluidType": "plasma",
+            "fluidType": "cloud",
             "hasLightning": true,
             "innerCloudRadius": 400,
             "rotationSpeed": 30
