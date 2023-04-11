@@ -19,8 +19,8 @@
         "clouds": {
             "hasLightning": true,
             "fluidType": "water",
-            "innerCloudRadius": 400,
-            "outerCloudRadius": 420,
+            "innerCloudRadius": 500,
+            "outerCloudRadius": 510,
             "tint": {
                 "r": 100,
                 "g": 110,
@@ -29,19 +29,19 @@
             "rotationSpeed": 10,
             "texturePath": "planets/assets/Avia.png"
         },
-        "size": 420,
+        "size": 500,
         "hasOxygen": true,
         "hasSnow": true,
         "useAtmosphereShader": true,
-        "fogSize": 420,
+        "fogSize": 350,
         "fogDensity": 0.5,
         "fogTint": {
             "r": 200,
             "g": 200,
             "b": 255
         },
-        "atmosphereSunIntensity": 10,
+        "atmosphereSunIntensity": 1,
         "hasShockLayer": true,
-        "minShockSpeed": 35
+        "minShockSpeed": 50
     }
 }
