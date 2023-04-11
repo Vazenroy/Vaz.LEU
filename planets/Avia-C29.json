@@ -9,14 +9,13 @@
 		"hasMapMarker": true
 	},
     "Orbit": {
-        "semiMajorAxis": 40000,
+        "semiMajorAxis": 10000,
         "primaryBody": "SUN",
         "isMoon": true,
         "isTidallyLocked": true
     },
     "Atmosphere": {
         "clouds": {
-            "cloudsPrefab": "giantsDeep",
             "hasLightning": true,
             "fluidType": "sand",
             "innerCloudRadius": 400,
@@ -26,13 +25,38 @@
                 "g": 110,
                 "b": 245
             },
-            "rotationSpeed": 0.1
+            "rotationSpeed": 0.2,
+            "texturePath": "planets/assets/Avia.png",
+            "capPath": "planets/assets/Avia_Cap.png"
         },
         "size": 420,
         "hasOxygen": true,
         "hasSnow": true,
         "useAtmosphereShader": true,
         "fogSize": 420,
-        "fogDensity": 0.2
-    }
+        "fogDensity": 0.2,
+        "atmosphereSunIntensity": 1
+    },
+    "AmbientLights": [
+        {
+            "outerRadius": 420,
+            "innerRadius": 400,
+            "intensity": 1,
+            "tint": {
+                "r": 255,
+                "g": 0,
+                "b": 255
+            }
+        },
+        {
+            "outerRadius": 420,
+            "innerRadius": 400,
+            "intensity": 1,
+            "tint": {
+                "r": 150,
+                "g": 0,
+                "b": 250
+            }
+        }
+    ]
 }
