@@ -3,8 +3,8 @@
     "name" : "Avia-C29",
     "starSystem": "SolarSystem",
 	"Base": {
-		"groundSize": 300,
-		"surfaceSize": 310,
+		"groundSize": 310,
+		"surfaceSize": 300,
 		"surfaceGravity": 12,
 		"hasMapMarker": true
 	},
