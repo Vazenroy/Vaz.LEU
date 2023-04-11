@@ -15,13 +15,6 @@
         "isTidallyLocked": true
     },
     "Atmosphere": {
-        "clouds": {
-            "cloudsPrefab": "giantsDeep",
-            "fluidType": "cloud",
-            "hasLightning": true,
-            "innerCloudRadius": 400,
-            "rotationSpeed": 5
-        },
         "size": 420,
         "hasOxygen": true,
         "hasSnow": true,
