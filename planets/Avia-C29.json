@@ -29,23 +29,6 @@
         "fogSize": 420,
         "fogDensity": 1
     },
-    "Spawn": {
-        "shipSpawn": {
-            "rotation": {
-                "x": 0,
-                "y": 0,
-                "z": 0
-            },
-            "alignRadial": false,
-            "position": {
-                "x": 10000,
-                "y": 10000,
-                "z": 10000
-            }
-        },
-        "playerSpawn": {
-        }
-    },
     "AsteroidBelt": {
         "amount": 21,
         "inclination": 30,
