@@ -3,7 +3,11 @@
     "name" : "Avia-C29",
     "starSystem": "SolarSystem",
     "canShowOnTitle": true,
-	"Base": {
+	"Spawn": {
+        "playerSpawn": {},
+        "shipSpawn": {}
+    },
+    "Base": {
 		"groundSize": 300,
 		"surfaceSize": 301,
 		"surfaceGravity": 25,
@@ -17,8 +21,9 @@
     },
     "Atmosphere": {
         "clouds": {
+            "cloudsPrefab": "giantsDeep",
             "hasLightning": true,
-            "fluidType": "water",
+            "fluidType": "cloud",
             "innerCloudRadius": 500,
             "outerCloudRadius": 510,
             "tint": {
@@ -27,7 +32,8 @@
                 "b": 245
             },
             "rotationSpeed": 10,
-            "texturePath": "planets/assets/Avia.png"
+            "texturePath": "planets/assets/Avia.png",
+            "capPath": "planets/assets/Avia_Cap.png"
         },
         "size": 500,
         "hasOxygen": true,
