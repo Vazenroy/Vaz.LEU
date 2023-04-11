@@ -32,16 +32,8 @@
             },
             "alignRadial": true,
             "position": {
-                "x": 310,
-                "y": 0,
-                "z": 0
-            }
-        },
-        "playerSpawn": {
-            "alignRadial": true,
-            "position": {
-                "x": 300,
-                "y": 310,
+                "x": 1000,
+                "y": 1000,
                 "z": 0
             }
         }
