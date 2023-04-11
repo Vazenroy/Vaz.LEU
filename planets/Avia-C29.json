@@ -12,7 +12,7 @@
         "semiMajorAxis": 40000,
         "primaryBody": "SUN",
         "isMoon": true,
-        "isTidallyLocked": false
+        "isTidallyLocked": true
     },
     "Atmosphere": {
         "clouds": {
@@ -20,7 +20,7 @@
             "fluidType": "cloud",
             "hasLightning": true,
             "innerCloudRadius": 400,
-            "rotationSpeed": 30
+            "rotationSpeed": 5
         },
         "size": 420,
         "hasOxygen": true,
