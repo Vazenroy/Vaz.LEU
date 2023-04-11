@@ -3,24 +3,6 @@
     "name": "Avia-C29",
     "starSystem": "SolarSystem",
     "canShowOnTitle": true,
-    "Spawn": {
-        "playerSpawn": {
-            "startWithSuit": false,
-            "alignRadial": false,
-            "position": {
-                "x": 0,
-                "y": 0,
-                "z": 0
-            }
-        },
-        "shipSpawn": {
-            "position": {
-                "x": 0,
-                "y": 0,
-                "z": 0
-            }
-        }
-    },
     "Base": {
         "groundSize": 300,
         "surfaceSize": 300,
@@ -34,11 +16,6 @@
         "primaryBody": "SUN",
         "isMoon": false,
         "isTidallyLocked": false,
-        "staticPosition": {
-            "x": 0,
-            "y": 0,
-            "z": 0
-        },
         "siderealPeriod": 1,
         "showOrbitLine": true,
         "tint": {
@@ -47,10 +24,8 @@
             "b": 243,
             "a": 255
         },
-        "eccentricity": 0.001,
-        "trackingOrbitLine": false,
-        "inclination": 45,
-        "longitudeOfAscendingNode": 180
+        "eccentricity": 0,
+        "trackingOrbitLine": false
     },
     "Atmosphere": {
         "clouds": {
