@@ -1,30 +1,56 @@
 {
     "$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
-    "name" : "Avia-C29",
+    "name": "Avia-C29",
     "starSystem": "SolarSystem",
     "canShowOnTitle": true,
-	"Spawn": {
+    "Spawn": {
         "playerSpawn": {
-            "startWithSuit": true
+            "startWithSuit": false,
+            "alignRadial": false,
+            "position": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            }
         },
         "shipSpawn": {
             "position": {
-                "x": 50,
-                "y": 50
+                "x": 0,
+                "y": 0,
+                "z": 0
             }
         }
     },
     "Base": {
-		"groundSize": 300,
-		"surfaceSize": 301,
-		"surfaceGravity": 25,
-		"hasMapMarker": true
-	},
+        "groundSize": 300,
+        "surfaceSize": 300,
+        "surfaceGravity": 24,
+        "hasMapMarker": true,
+        "centerOfSolarSystem": false,
+        "showMinimap": true
+    },
     "Orbit": {
         "semiMajorAxis": 10000,
         "primaryBody": "SUN",
-        "isMoon": true,
-        "isTidallyLocked": false
+        "isMoon": false,
+        "isTidallyLocked": false,
+        "staticPosition": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "siderealPeriod": 1,
+        "showOrbitLine": true,
+        "tint": {
+            "r": 195,
+            "g": 230,
+            "b": 243,
+            "a": 255
+        },
+        "eccentricity": 0.001,
+        "trackingOrbitLine": false,
+        "inclination": 45,
+        "longitudeOfAscendingNode": 180
     },
     "Atmosphere": {
         "clouds": {
@@ -34,19 +60,20 @@
             "innerCloudRadius": 500,
             "outerCloudRadius": 510,
             "tint": {
-                "r": 100,
-                "g": 110,
-                "b": 245
+                "r": 39,
+                "g": 50,
+                "b": 210,
+                "a": 255
             },
             "rotationSpeed": 10,
             "texturePath": "planets/assets/Avia.png",
-            "capPath": "planets/assets/Avia_Cap.png"
+            "capPath": "planets/assets/Avia_Cap.png",
+            "unlit": false
         },
         "size": 500,
         "hasOxygen": true,
         "hasSnow": true,
         "useAtmosphereShader": true,
-        "fogSize": 350,
         "fogDensity": 0.5,
         "fogTint": {
             "r": 200,
@@ -55,6 +82,14 @@
         },
         "atmosphereSunIntensity": 1,
         "hasShockLayer": true,
-        "minShockSpeed": 50
+        "minShockSpeed": 50,
+        "atmosphereTint": {
+            "r": 165,
+            "g": 214,
+            "b": 239,
+            "a": 255
+        },
+        "hasTrees": false,
+        "fogSize": 450
     }
 }
