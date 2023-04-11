@@ -30,12 +30,14 @@
                 "y": 0,
                 "z": 0
             },
-            "alignRadial": true,
+            "alignRadial": false,
             "position": {
-                "x": 1000,
-                "y": 1000,
-                "z": 0
+                "x": 10000,
+                "y": 10000,
+                "z": 10000
             }
+        },
+        "playerSpawn": {
         }
     },
     "AsteroidBelt": {
